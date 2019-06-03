@@ -1,0 +1,2 @@
+INSERT_UPDATE SingleCodeCoupon; couponId[unique = true]; name[lang = en]; maxRedemptionsPerCustomer; maxTotalRedemptions; active
+; {{couponId}}  ; {{name}}  ; {{maxRedemptionsPerCustomer}} ; {{maxTotalRedemptions}} ; {{active}}

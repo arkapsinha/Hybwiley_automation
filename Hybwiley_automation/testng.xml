@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Wiley Test Suite">
+ 	<!-- This parameter will be passed to every test in this suite -->
+ 	
+ 	<test name="IE suite" >
+      <parameter name="env" value="test" />
+      <parameter name="browser" value="ie" /> 
+      <parameter name="suite" value="all" />
+      <parameter name="count" value="1" />
+    
+
+    <classes>
+    	<class name="wiley.automation.core.report.SetupReport"/> 
+    	<class name="wiley.automation.wol.test.Integration_Article_Select"/>
+    <class name="wiley.automation.core.report.TeardownReport"/>
+    </classes>
+ </test> 
+ 
+ <test name="Chrome suite" >
+      <parameter name="env" value="test" />
+      <parameter name="browser" value="chrome" /> 
+      <parameter name="suite" value="all" /> 
+      <parameter name="count" value="2" />
+    
+    <classes>
+    	<class name="wiley.automation.core.report.SetupReport"/> 
+        <class name="wiley.automation.wol.test.Integration_Article_Select"/>
+  	    <class name="wiley.automation.core.report.TeardownReport"/>
+  	</classes>
+ </test>
+     
+   <test name="Firefox suite" >
+    <parameter name="env" value="test" />
+    <parameter name="browser" value="firefox" /> 
+      <parameter name="suite" value="all" />
+      <parameter name="count" value="3" />
+   		 <parameter name="screenshot" value="onFail" />
+
+    <classes>
+    	<class name="wiley.automation.core.report.SetupReport"/> 
+        <class name="wiley.automation.wol.test.Integration_Article_Select"/>
+	    <class name="wiley.automation.core.report.TeardownReport"/>
+    </classes>
+ </test>
+</suite>
+

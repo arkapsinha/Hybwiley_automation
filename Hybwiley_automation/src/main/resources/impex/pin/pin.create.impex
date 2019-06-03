@@ -1,0 +1,2 @@
+INSERT_UPDATE Pin;code[unique=true];productCode
+;{{code}};{{productCode}};

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Wiley Test Suite" duration-ms="42036" started-at="2019-05-17T09:21:10Z" finished-at="2019-05-17T09:21:52Z">
+    <groups>
+    </groups>
+    <test name="Regression suite" duration-ms="42036" started-at="2019-05-17T09:21:10Z" finished-at="2019-05-17T09:21:52Z">
+      <class name="wiley.automation.wol.test.welstorefront">
+        <test-method status="PASS" signature="Setupreport()[pri:0, instance:wiley.automation.wol.test.welstorefront@2d554825]" name="Setupreport" is-config="true" duration-ms="812" started-at="2019-05-17T14:51:09Z" finished-at="2019-05-17T14:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setupreport -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:wiley.automation.wol.test.welstorefront@2d554825]" name="Setup" is-config="true" duration-ms="12465" started-at="2019-05-17T14:51:10Z" finished-at="2019-05-17T14:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="welstore1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:wiley.automation.wol.test.welstorefront@2d554825]" name="welstore1" duration-ms="24503" started-at="2019-05-17T14:51:23Z" data-provider="welstore1" finished-at="2019-05-17T14:51:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[T0001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Positive]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[T0001_TC]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Login in WEL]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[apsinha@wiley.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welstore1 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:wiley.automation.wol.test.welstorefront@2d554825]" name="TearDown" is-config="true" duration-ms="4734" started-at="2019-05-17T14:51:47Z" finished-at="2019-05-17T14:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- wiley.automation.wol.test.welstorefront -->
+      <class name="wiley.automation.core.report.SetupReport">
+        <test-method status="PASS" signature="setupReport(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:wiley.automation.core.report.SetupReport@68837a77]" name="setupReport" is-config="true" duration-ms="57" started-at="2019-05-17T14:51:10Z" finished-at="2019-05-17T14:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[all]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+      </class> <!-- wiley.automation.core.report.SetupReport -->
+      <class name="wiley.automation.core.report.TeardownReport">
+        <test-method status="PASS" signature="teardownReport()[pri:0, instance:wiley.automation.core.report.TeardownReport@327471b5]" name="teardownReport" is-config="true" duration-ms="245" started-at="2019-05-17T14:51:52Z" finished-at="2019-05-17T14:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownReport -->
+        <test-method status="PASS" signature="TearDownreport()[pri:0, instance:wiley.automation.wol.test.welstorefront@2d554825]" name="TearDownreport" is-config="true" duration-ms="1293" started-at="2019-05-17T14:51:52Z" finished-at="2019-05-17T14:51:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownreport -->
+      </class> <!-- wiley.automation.core.report.TeardownReport -->
+    </test> <!-- Regression suite -->
+  </suite> <!-- Wiley Test Suite -->
+</testng-results>

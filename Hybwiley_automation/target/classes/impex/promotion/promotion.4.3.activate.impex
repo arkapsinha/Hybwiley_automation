@@ -1,0 +1,9 @@
+ruleService = spring.getBean("ruleService");
+ruleMaintenanceService = spring.getBean("ruleMaintenanceService");
+def rules = ["{{rules}}"];
+println rules;
+def ruleModels = rules.stream().map { rule -> ruleService.getRuleForCode(rule) } .collect();println ruleModels;
+def result = ruleMaintenanceService.compileAndPublishRules(ruleModels, "promotions-module", false);
+println result.getResult();
+ruleModels = rules.stream().map { rule -> ruleService.getRuleForCode(rule) } .collect();
+println ruleModels;

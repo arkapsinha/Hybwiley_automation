@@ -1,0 +1,2 @@
+REMOVE Customer[batchMode=true];uid[unique=true]
+;{{uid}};

@@ -1,0 +1,8 @@
+REMOVE WileyProduct; code[unique = true]
+                   ; {{code}}
+
+REMOVE WileyVariantProduct[disable.interceptor.types=validate]; code[unique = true]
+                                                              ; AUTOMATION_PRE_ORDER_VARIANT_PRODUCT_DIG
+
+REMOVE WileyVariantProduct[disable.interceptor.types=validate]; code[unique = true]
+                                                              ; AUTOMATION_PRE_ORDER_VARIANT_PRODUCT_PRINT

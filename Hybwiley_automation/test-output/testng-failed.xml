@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Wiley Test Suite]">
+  <parameter name="suite" value="all"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="count" value="1"/>
+  <parameter name="env" value="test"/>
+  <test name="Regression suite(failed)">
+    <classes>
+      <class name="wiley.automation.wol.test.welstorefront">
+        <methods>
+          <include name="Setupreport"/>
+          <include name="welstore5" invocation-numbers="0"/>
+          <include name="TearDown"/>
+          <include name="Setup"/>
+          <include name="TearDownreport"/>
+        </methods>
+      </class> <!-- wiley.automation.wol.test.welstorefront -->
+      <class name="wiley.automation.core.report.SetupReport">
+        <methods>
+          <include name="setupReport"/>
+        </methods>
+      </class> <!-- wiley.automation.core.report.SetupReport -->
+      <class name="wiley.automation.core.report.TeardownReport">
+        <methods>
+          <include name="teardownReport"/>
+        </methods>
+      </class> <!-- wiley.automation.core.report.TeardownReport -->
+    </classes>
+  </test> <!-- Regression suite(failed) -->
+</suite> <!-- Failed suite [Wiley Test Suite] -->

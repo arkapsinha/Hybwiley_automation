@@ -1,0 +1,9 @@
+$productCatalog = {{productCatalog}}
+$catalogVersion = catalogversion(catalog(id[default = $productCatalog]), version[default = 'Online'])[unique = true, default = $productCatalog:Online]
+$supercategories = supercategories(code, $catalogVersion)
+$approved = approvalstatus(code)[default = 'approved']
+$baseProduct = baseProduct(code, $catalogVersion)
+
+
+INSERT_UPDATE WileyVariantProduct[disable.interceptor.types=validate]; code[unique = true]; $baseProduct; supercategories(code, $catalogVersion); unit(code); editionFormat(code); variantType(code); isbn; $approved; $catalogVersion; lifecycleStatus(code); name
+                                                                     ; {{code}}       ; {{baseProduct}} ; {{supercategories}} ; {{unit}}             ; {{editionFormat}} ; ; {{isbn}};;;; {{name}}

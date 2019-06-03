@@ -1,0 +1,2 @@
+INSERT_UPDATE PriceRow; productId[unique = true]; unit(code[unique = true, default = pieces]); currency(isocode)[unique = true]; price; minqtd; unitFactor; net; country(isocode)[unique = true]
+                      ;{{productId}}                             ; {{unit}} ; {{currency}} ; {{price}} ; {{minqtd}} ; {{unitFactor}} ; {{net}}

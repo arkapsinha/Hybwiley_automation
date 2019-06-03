@@ -1,0 +1,2 @@
+INSERT_UPDATE Customer;uid[unique=true];customerID;firstName;lastName;description;sessionLanguage(isocode);sessionCurrency(isocode);groups(uid);password
+;{{uid}};{{customerID}};{{firstName}};{{lastName}};Customer created with UI auto test;en;USD;customergroup;{{password}}

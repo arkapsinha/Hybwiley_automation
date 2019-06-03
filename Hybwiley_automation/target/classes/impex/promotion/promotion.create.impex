@@ -1,0 +1,4 @@
+INSERT_UPDATE PromotionSourceRule; code[unique = true]; name[lang = en]; messageFired[lang = en]; website(Identifier); priority; excludeFromStorefrontDisplay; ruleGroup(code); maxAllowedRuns; conditions; actions
+                                 ; {{code}}  ; {{code}} ; {{code}} applied ; {{website}} ; {{priority}} ; false ; defaultExclusivePromotionRuleGroup ; 1 ; "[{""definitionId"":""y_qualifying_coupons"",""parameters"":{""coupons"":{""uuid"":""8ba45f25-c0db-4d55-a727-a83eba1db1ba"",""type"":""List(ItemType(AbstractCoupon))"",""value"":[""{{couponId}}""]}},""children"":[]}]" ; "[{""definitionId"":""y_order_percentage_discount"",""parameters"":{""value"":{""uuid"":""9477322e-59fb-4c0b-8a9d-e379c5eeb6ff"",""type"":""java.math.BigDecimal"",""value"":{{discountValue}}}}}]" ;
+
+

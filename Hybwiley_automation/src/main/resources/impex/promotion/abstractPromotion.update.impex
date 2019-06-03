@@ -1,0 +1,2 @@
+UPDATE AbstractPromotion[batchmode=true];PromotionGroup(Identifier)[unique=true];enabled;
+;welPromoGrp;false;
